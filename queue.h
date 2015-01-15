@@ -9,8 +9,8 @@ typedef struct node_tag
 
 typedef struct
 {
-	int size;
-	int max_size;
+	size_t size;
+	size_t max_size;
 	node *head;
 	node *tail;
 } queue;
